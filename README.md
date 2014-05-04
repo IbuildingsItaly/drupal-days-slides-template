@@ -14,7 +14,7 @@ Ensure you have the following installed:
 
 1. [Node.js](http://nodejs.org)
 2. [Bower](http://bower.io): `$ npm install -g bower`
-3. [Grunt](http://gruntjs.com): `$ npm install -g grunt-cli`
+3. [Grunt](http://gruntjs.com): `$ npm install -g grunt`
 
 Then, install dependencies:
 
