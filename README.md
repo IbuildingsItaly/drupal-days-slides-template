@@ -1,6 +1,14 @@
 # Bespoke slide template for [**DrupalDays**](http://milano2014.drupaldays.it) event
 > A [Bespoke.js](http://markdalgleish.com/projects/bespoke.js) presentation, built with [generator-bespoke](https://github.com/markdalgleish/generator-bespoke)
 
+## Requirements
+
+These slides are written with:
+
+  - **Javascript**
+  - [**Jade**](http://jade-lang.com/) (HTML)
+  - [**Stylus**](http://learnboost.github.io/stylus/) (CSS)
+
 ## Usage
 
 Fork the repo, rename as you want and then clone it locally:
