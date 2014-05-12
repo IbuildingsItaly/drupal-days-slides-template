@@ -1,47 +1,106 @@
 doctype html
 html
-  head
-    meta(charset='utf-8')
-    meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1')
-    title AngularJS - Javascript framework for superheroes
+    head
+        meta(charset='utf-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1')
+        title AngularJS - Javascript framework for superheroes
 
-    // build:css styles/styles.css
-    //- Check out 'src/bower_components/prism/themes/' for available themes
-    link(rel='stylesheet', type='text/css', href='bower_components/prism/themes/prism-tomorrow.css')
-    link(rel='stylesheet', type='text/css', href='styles/main.css')
-    // endbuild
+        // build:css styles/styles.css
+        //- Check out 'src/bower_components/prism/themes/' for available themes
+        link(rel='stylesheet', type='text/css', href='bower_components/prism/themes/prism-tomorrow.css')
+        link(rel='stylesheet', type='text/css', href='styles/main.css')
+        // endbuild
 
-  body
+    body
 
-    article
+        article
 
-      section.dd-homepage
-        div.dd-homepage-logo
-          div.dd-homepage-logo-bg
-          div.dd-homepage-logo-write
-        h1.dd-homepage-title Talk title
+            section.dd-homepage
+                div.dd-homepage-logo
+                    div.dd-homepage-logo-bg
+                    div.dd-homepage-logo-write
+                h1.dd-homepage-title Talk title
 
-      section.dd-section
-        div.dd-section-logo
-        h2.dd-title Section title
+            section.dd-section
+                div.dd-section-logo
+                h2.dd-title Section title
 
-      section.dd-speaker
-        div.dd-speaker-box
-          div.dd-speaker-pic
-          div.dd-speaker-detail
-            div.dd-speaker-detail-container
-              h3.dd-title Speaker Name
+            section.dd-speaker
+                div.dd-speaker-box
+                    div.dd-speaker-pic
+                    div.dd-speaker-detail
+                        div.dd-speaker-detail-container
+                            h3.dd-title Speaker Name
+                            ul(style='text-align: left; margin-left: 25px')
+                                li <span class="small-icon octicon-mail"></span> <a href="mailto:info@ibuildings.it">email</a>
+                                li <span class="small-icon octicon-twitter"></span> <a href="https://twitter.com/twitter">twitter</a>
+                                li <span class="small-icon octicon-github"></span> <a href="https://github.com/IbuildingsItaly/">github.com/IbuildingsItaly</a>
+                                li <span class="small-icon octicon-fork"></span> <a href="https://github.com/IbuildingsItaly/drupal-days-slides-template">fork slides</a>
+                                li <span class="small-icon octicon-demo"></span> <a href="http://ibuildingsitaly.github.io/drupal-days-slides-template">live slides</a>
 
-    // build:js scripts/scripts.js
-    script(src='bower_components/bespoke.js/dist/bespoke.min.js')
-    script(src='bower_components/bespoke-keys/dist/bespoke-keys.min.js')
-    script(src='bower_components/bespoke-touch/dist/bespoke-touch.min.js')
-    script(src='bower_components/bespoke-bullets/dist/bespoke-bullets.min.js')
-    script(src='bower_components/bespoke-scale/dist/bespoke-scale.min.js')
-    script(src='bower_components/bespoke-hash/dist/bespoke-hash.min.js')
-    script(src='bower_components/bespoke-progress/dist/bespoke-progress.min.js')
-    script(src='bower_components/bespoke-state/dist/bespoke-state.min.js')
-    script(src='bower_components/bespoke-forms/dist/bespoke-forms.min.js')
-    script(src='bower_components/prism/prism.js')
-    script(src='scripts/main.js')
-    // endbuild
+            section.dd-section
+                div.dd-section-logo
+                h2.dd-title Sponsors
+                hr
+                ul
+                    li.dd-sponsors.organizer
+                        a(href="http://www.ibuildings.nl", target="_blank") http://www.ibuildings.nl
+                        figure
+                            img(src="images/sponsors/logo-ibuildings.jpg", alt="Ibuildings organiser")
+                    li.dd-sponsors.silver
+                        a(href="http://commerceguys.com", target="_blank") http://commerceguys.com
+                        figure
+                            img(src="images/sponsors/commerce.png", alt="Commerce Guys")
+                    li.dd-sponsors.silver
+                        a(href="http://www.dotcom.ts.it", target="_blank") http://www.dotcom.ts.it
+                        figure
+                            img(src="images/sponsors/logo.png", alt="Dotcom")
+                    li.dd-sponsors.silver
+                        a(href="http://www.jetbrains.com", target="_blank") http://www.jetbrains.com
+                        figure
+                            img(src="images/sponsors/logojetbrains_0.jpg", alt="JetBrains")
+                    li.dd-sponsors.social
+                        a(href="http://www.colorsprint.it", target="_blank") http://www.colorsprint.it
+                        figure
+                            img(src="images/sponsors/marchio.jpg", alt="ColorSprint")
+                    li.dd-sponsors.social
+                        a(href="http://milano.talentgarden.org", target="_blank") http://milano.talentgarden.org
+                        figure
+                            img(src="images/sponsors/Logo_TalentGarden_Milano_0.png", alt="Talent Garden")
+                hr
+                h2.dd-title Media Partners
+                ul
+                    li.dd-sponsors
+                        a(href="http://programmazione.it", target="_blank") http://programmazione.it
+                        figure
+                            img(src="images/sponsors/logo_1.png", alt="Programmazione.it")
+                    li.dd-sponsors
+                        a(href="http://www.drupalitalia.org", target="_blank") http://www.drupalitalia.org
+                        figure
+                            img(src="images/sponsors/Drupalitalia_0.png", alt="Associazione Drupal Italia")
+                    li.dd-sponsors
+                        a(href="http://www.architecta.it", target="_blank") http://www.architecta.it
+                        figure
+                            img(src="images/sponsors/Logo_Architecta_0.png", alt="Architecta")
+                    li.dd-sponsors
+                        a(href="http://uxbookclub.it/8/id_95/incontro-del-9-5-milano-uxbookclub", target="_blank") http://uxbookclub.it/8/id_95/incontro-del-9-5-milano-uxbookclub
+                        figure
+                            img(src="images/sponsors/2C6C411E-4D54-45E6-84CF-76BCDA569758.jpg", alt="UX Bookclub")
+                    li.dd-sponsors
+                        a(href="http://www.hubme.in", target="_blank") http://www.hubme.in
+                        figure
+                            img(src="images/sponsors/logo_0.png", alt="Hubme")
+
+        // build:js scripts/scripts.js
+        script(src='bower_components/bespoke.js/dist/bespoke.min.js')
+        script(src='bower_components/bespoke-keys/dist/bespoke-keys.min.js')
+        script(src='bower_components/bespoke-touch/dist/bespoke-touch.min.js')
+        script(src='bower_components/bespoke-bullets/dist/bespoke-bullets.min.js')
+        script(src='bower_components/bespoke-scale/dist/bespoke-scale.min.js')
+        script(src='bower_components/bespoke-hash/dist/bespoke-hash.min.js')
+        script(src='bower_components/bespoke-progress/dist/bespoke-progress.min.js')
+        script(src='bower_components/bespoke-state/dist/bespoke-state.min.js')
+        script(src='bower_components/bespoke-forms/dist/bespoke-forms.min.js')
+        script(src='bower_components/prism/prism.js')
+        script(src='scripts/main.js')
+        // endbuild
