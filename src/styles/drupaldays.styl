@@ -57,6 +57,9 @@
   right: 0px
   background-position: 45px -20px
 
+.dd-section-code
+  width: 840px
+
 .dd-speaker
   background-image: url('../images/background.png')
   background-repeat: repeat
@@ -66,11 +69,11 @@
   display: inline-flex
 
 .dd-speaker-pic
-  width: 300px
+  width: 285px
   height: 300px
   background-image: url("../images/speaker/pic.png")
-  background-repeat: repeat
-  background-size: 300px 300px
+  background-repeat: no-repeat
+  background-size: 285px 300px
   box-shadow: 3px 3px 4px -1px
   margin-right: 10px
 
@@ -82,3 +85,74 @@
 
 .dd-speaker-detail-container
   margin: 20px
+
+li.dd-sponsors
+  display inline-block
+  margin 8px
+  margin-bottom 32px
+  position relative
+
+li.dd-sponsors::before
+  overflow hidden
+  position absolute
+
+li.dd-sponsors.organizer::before
+  content url("../images/sponsors/labelOrganizer.png")
+  left -11px
+  top 25px
+
+li.dd-sponsors.social::before
+  content url("../images/sponsors/labelSocial.png")
+  left 7px
+  top 20px
+
+li.dd-sponsors.hackathon::before
+  content url("../images/sponsors/labelHackathon.png")
+  left -11px
+  top 25px
+
+li.dd-sponsors.gold::before
+  content url("../images/sponsors/labelGold.png")
+  left 7px
+  top 20px
+
+li.dd-sponsors.silver::before
+  content url("../images/sponsors/labelSilver.png")
+  left 7px
+  top 20px
+
+li.dd-sponsors a
+  display block
+  font-size 0
+  position absolute
+  width 100%
+  height 100%
+  z-index 120
+
+li.dd-sponsors figure
+  background-color #fff
+  overflow hidden
+  width 100px
+  height 100px
+  display block
+  border 8px solid #fff
+  border-top-left-radius 50%
+  border-top-right-radius 50%
+  border-bottom-left-radius 50%
+  border-bottom-right-radius 50%
+  position relative
+  z-index 10
+  -webkit-box-shadow 0 0 6px rgba(0,0,0,0.1)
+  -moz-box-shadow 0 0 6px rgba(0,0,0,0.1)
+  box-shadow 0 0 6px rgba(0,0,0,0.1)
+
+li.dd-sponsors figure img
+  border-top-left-radius 50%
+  border-top-right-radius 50%
+  border-bottom-left-radius 50%
+  border-bottom-right-radius 50%
+  height 102%
+  width 102%
+  position absolute
+  left -1%
+  top -1%
